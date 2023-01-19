@@ -12,5 +12,5 @@ const usuarioSchema = new Schema({
 
 
 //Aqui es donde se adapta al contenedor que vas a usar
-module.exports = model('tbl-usuario', usuarioSchema);
+module.exports = model('tbl-usuarios', usuarioSchema);
 

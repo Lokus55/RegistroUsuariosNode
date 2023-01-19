@@ -11,6 +11,7 @@ router.post('/contactos', contactosController.create);
 
 //Usuarios
 router.post('/registro', userCtrl.registro);
+router.post('/login', userCtrl.login);
 
 
 module.exports = router;

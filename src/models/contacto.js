@@ -5,6 +5,7 @@ const contactoSchema = new Schema({
     telefono:{type:String, default: '0'},
     correo:{type:String},
     status:{type:Number, default: 1 },
+    idUsuario:{type:String}
 });
 
 
